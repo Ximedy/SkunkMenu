@@ -1,12 +1,7 @@
 --[[
 
-	Rayfield Interface Suite
-	by Sirius
-
-	shlex | Designing + Programming
-	iRay  | Programming
-	Max   | Programming
-
+	Skunk HUB
+	Edit By: Ximedy
 ]]
 
 if debugX then
@@ -71,13 +66,13 @@ end
 local requestsDisabled = true --getgenv and getgenv().DISABLE_RAYFIELD_REQUESTS
 local InterfaceBuild = '3K3W'
 local Release = "Build 1.672"
-local RayfieldFolder = "Rayfield"
+local RayfieldFolder = "SkunkMenu"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 local settingsTable = {
 	General = {
 		-- if needs be in order just make getSetting(name)
-		rayfieldOpen = {Type = 'bind', Value = 'K', Name = 'Rayfield Keybind'},
+		rayfieldOpen = {Type = 'bind', Value = 'K', Name = 'SkunkMenu Keybind'},
 		-- buildwarnings
 		-- rayfieldprompts
 
